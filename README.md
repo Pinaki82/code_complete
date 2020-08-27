@@ -14,7 +14,7 @@ In insert mode, when you type `<C-CR>` (default value of g:completekey) after fu
 This key is also used to complete code snippets.
 
 NOTE:
-I changed the default <Tab> completion key mapping to <C-CR> i.e., Ctrl+Enter because <Tab> completion conflicts with some other configurations and plugins like Supertab.
+I changed the default <<Tab>> completion key mapping to <<C-CR>> i.e., Ctrl+Enter because <<Tab>> completion conflicts with some other configurations and plugins like Supertab.
 
 #### Example:
 press `<C-CR>` after function name and `(`
