@@ -354,7 +354,7 @@ let g:template['c']['pra'] = "#pragma  ".g:rs."...".g:re.""
 " C++ templates
 let g:template['cpp'] = g:template['c']
 "
-" Additional C templates
+" Additional C++ templates
 "
 let g:template['cpp']['usi'] = "using namespace ".g:rs."std".g:re.";"
 let g:template['cpp']['in2'] = "#include <cerrno>\<cr>#include <iostream>\<cr>#include <vector>\<cr>#include <ios>\<cr>#include <ostream>\<cr>#include <string>\<cr>#include <cmath>\<cr>#include <cstdio>\<cr>#include <cstdlib>\<cr>#include <".g:rs."...".g:re.">\<cr>#include <".g:rs."...".g:re.">\<cr>#include \"".g:rs."...".g:re."\"\<cr>#include \"".g:rs."...".g:re."\"\<cr>"
