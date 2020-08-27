@@ -9,14 +9,17 @@ Utility
 
 It shows what this script can do.
 
-In insert mode, when you type `<tab>` (default value of g:completekey) after function name with a `(` , function parameters will be append behind, use `<tab>` key again to switch between parameters.
+In insert mode, when you type `<C-CR>` (default value of g:completekey) after function name with a `(` , function parameters will be append behind, use `<C-CR>` key again to switch between parameters.
 
 This key is also used to complete code snippets.
 
-#### Example:
-press `<tab>` after function name and `(`
+NOTE:
+I changed the default <Tab> completion key mapping to <C-CR> i.e., Ctrl+Enter because <Tab> completion conflicts with some other configurations and plugins like Supertab.
 
-    foo ( <tab>
+#### Example:
+press `<C-CR>` after function name and `(`
+
+    foo ( <C-CR>
   
 becomes:
 
@@ -24,7 +27,7 @@ becomes:
   
 press `<tab>` after code template
 
-    if <tab>
+    if <C-CR>
   
 becomes:
 
